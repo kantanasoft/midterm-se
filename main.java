@@ -21,7 +21,7 @@ public class main {
         	SelectDetailRoom myObject = new SelectDetailRoom();
         	String resultOptionRoom =  myObject.selectOptionRoom();
         	
-        	System.out.println("Option Room Hotel = " + resultOptionRoom);
+        	System.out.println("Option Select Room Hotel = " + resultOptionRoom);
         	
         }catch(Exception e){
         	System.out.println(e);
