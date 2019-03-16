@@ -18,7 +18,11 @@ public class main {
         	bufferRead = new BufferedReader(new InputStreamReader(System.in));
         	String amountCustomer = bufferRead.readLine();
         	
+
         	SelectDetailRoom myObjectTestDetail = new SelectDetailRoom();
+
+        	SelectDetailRoom myObjects = new SelectDetailRoom();
+
         	String resultOptionRoom =  myObject.selectOptionRoom();
         	
         	System.out.println("Option Select Room Hotel = " + resultOptionRoom);
